@@ -13,7 +13,7 @@
 #define _GUI_TASK_TASK_RUNNER_H
 
 #include <QThreadPool>
-#include "task.h"
+#include "task/task.h"
 
 class TaskRunner
 {	

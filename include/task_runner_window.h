@@ -13,8 +13,8 @@
 #define _GUI_TASK_RUNNER_WINDOW_WINDOW_H
 
 #include <QMainWindow>
-#include "gui/task/task.h"
-#include "gui/task/task_runner.h"
+#include "task/task.h"
+#include "task/task_runner.h"
 
 namespace OpenPST {
 	namespace GUI {
