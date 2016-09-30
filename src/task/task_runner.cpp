@@ -9,7 +9,7 @@
 * @author Gassan Idriss <ghassani@gmail.com>
 */
 
-#include "task_runner.h"
+#include "task/task_runner.h"
 
 TaskRunner::TaskRunner(volatile bool* canceller) : canceller(canceller)
 {

@@ -8,7 +8,7 @@
 *
 * @author Gassan Idriss <ghassani@gmail.com>
 */
-#include "gui/widget/progress_group_widget.h"
+#include "widget/progress_group_widget.h"
 #include "ui_progress_group_widget.h"
 
 using namespace OpenPST::GUI;

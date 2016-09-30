@@ -8,7 +8,7 @@
 *
 * @author Gassan Idriss <ghassani@gmail.com>
 */
-#include "gui/widget/log_widget.h"
+#include "widget/log_widget.h"
 #include "ui_log_widget.h"
 
 using namespace OpenPST::GUI;

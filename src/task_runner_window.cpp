@@ -9,7 +9,7 @@
 * @author Gassan Idriss <ghassani@gmail.com>
 */
 
-#include "gui/task_runner_window.h"
+#include "task_runner_window.h"
 
 using namespace OpenPST::GUI;
 
