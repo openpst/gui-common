@@ -7,6 +7,7 @@
 *
 * @author Gassan Idriss <ghassani@gmail.com>
 */
+#pragma once
 
 #include <QApplication>
 #include <QMetaType>
@@ -26,11 +27,11 @@ namespace OpenPST {
 			private:
 				QTranslator qtTranslator;
 				QTranslator translator;
-            
-	#if defined (_WIN32) && defined (DEBUG)
+			
+#if defined (_WIN32) && defined (DEBUG)
 				FILE* sout;
 				FILE* serr;
-	#endif
+#endif
 		};
 	}
 }

@@ -14,13 +14,13 @@
 using namespace OpenPST::GUI;
 
 AboutDialog::AboutDialog(QWidget *parent) :
-    QDialog(parent),
+	QDialog(parent),
 	ui(new Ui::AboutDialog)
 {
-    ui->setupUi(this);
+	ui->setupUi(this);
 }
 
 AboutDialog::~AboutDialog()
 {
-    delete ui;
+	delete ui;
 }

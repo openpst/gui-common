@@ -8,13 +8,12 @@
 *
 * @author Gassan Idriss <ghassani@gmail.com>
 */
-#ifndef _GUI_ABOUT_WINDOW_H
-#define _GUI_ABOUT_WINDOW_H
+#pragma once
 
 #include <QDialog>
 
 namespace Ui {
-    class AboutDialog;
+	class AboutDialog;
 }
 
 namespace OpenPST{
@@ -23,7 +22,7 @@ namespace OpenPST{
 		class AboutDialog : public QDialog
 		{
 
-            Q_OBJECT
+			Q_OBJECT
 
 			public:
 				explicit AboutDialog(QWidget *parent = 0);
@@ -38,4 +37,3 @@ namespace OpenPST{
 			};
 	}
 }
-#endif // _GUI_ABOUT_WINDOW_H

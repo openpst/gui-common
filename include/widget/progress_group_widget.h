@@ -8,8 +8,7 @@
 *
 * @author Gassan Idriss <ghassani@gmail.com>
 */
-#ifndef _GUI_WIDGET_PROGRESS_GROUP_WIDGET_H
-#define _GUI_WIDGET_PROGRESS_GROUP_WIDGET_H
+#pragma once
 
 #include <QGroupBox>
 #include <QPushButton>
@@ -24,7 +23,7 @@ namespace OpenPST{
 		class ProgressGroupWidget : public QGroupBox
 		{
 
-            Q_OBJECT
+			Q_OBJECT
 
 			public:
 				QPushButton* cancelButton;
@@ -49,7 +48,6 @@ namespace OpenPST{
 				Ui::ProgressGroupWidget *ui;
 
 
-        };
+		};
 	}
 }
-#endif // _GUI_WIDGET_PROGRESS_GROUP_WIDGET_H

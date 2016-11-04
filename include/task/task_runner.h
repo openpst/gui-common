@@ -9,8 +9,7 @@
 * @author Gassan Idriss <ghassani@gmail.com>
 */
 
-#ifndef _GUI_TASK_TASK_RUNNER_H
-#define _GUI_TASK_TASK_RUNNER_H
+#pragma once
 
 #include <QThreadPool>
 #include "task/task.h"
@@ -31,7 +30,3 @@ class TaskRunner
 		bool isRunning();
 		int queue(Task* task, int priority = 0);
 };
-
-
-
-#endif // _GUI_TASK_TASK_RUNNER_H

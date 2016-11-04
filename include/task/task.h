@@ -9,15 +9,14 @@
 * @author Gassan Idriss <ghassani@gmail.com>
 */
 
-#ifndef _GUI_TASK_TASK_H
-#define _GUI_TASK_TASK_H
+#pragma once
 
 #include <QObject>
 #include <QRunnable>
 
 class Task : public QObject, public QRunnable
 {
-    Q_OBJECT
+	Q_OBJECT
 
 	public:
 		~Task() {
@@ -44,5 +43,3 @@ class Task : public QObject, public QRunnable
 		void error(QString msg);
 		void log(QString msg);
 };
-
-#endif // _GUI_TASK_TASK_H

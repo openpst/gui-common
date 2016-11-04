@@ -8,8 +8,8 @@
 *
 * @author Gassan Idriss <ghassani@gmail.com>
 */
-#ifndef _GUI_WIDGET_LOG_WIDGET_H
-#define _GUI_WIDGET_LOG_WIDGET_H
+#pragma once
+
 
 #include <QGroupBox>
 #include <QFileDialog>
@@ -24,7 +24,7 @@ namespace OpenPST{
 		class LogWidget : public QGroupBox
 		{
 
-            Q_OBJECT
+			Q_OBJECT
 
 			public:
 	
@@ -44,7 +44,6 @@ namespace OpenPST{
 				Ui::LogWidget *ui;
 
 
-        };
+		};
 	}
 }
-#endif // _GUI_WIDGET_LOG_WIDGET_H

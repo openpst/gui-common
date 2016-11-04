@@ -14,7 +14,7 @@
 using namespace OpenPST::GUI;
 
 ProgressGroupWidget::ProgressGroupWidget(QWidget *parent) :
-    QGroupBox(parent),
+	QGroupBox(parent),
 	ui(new Ui::ProgressGroupWidget)
 {
 	ui->setupUi(this);

@@ -9,8 +9,7 @@
 * @author Gassan Idriss <ghassani@gmail.com>
 */
 
-#ifndef _GUI_TASK_RUNNER_WINDOW_WINDOW_H
-#define _GUI_TASK_RUNNER_WINDOW_WINDOW_H
+#pragma once
 
 #include <QMainWindow>
 #include "task/task.h"
@@ -18,7 +17,7 @@
 
 namespace OpenPST {
 	namespace GUI {
-    
+	
 		class TaskRunnerWindow
 		{
 			
@@ -41,5 +40,3 @@ namespace OpenPST {
 		};
 	}
 }
-
-#endif // _GUI_TASK_RUNNER_WINDOW_WINDOW_H

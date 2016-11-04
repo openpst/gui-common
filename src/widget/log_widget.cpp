@@ -14,13 +14,13 @@
 using namespace OpenPST::GUI;
 
 LogWidget::LogWidget(QWidget *parent) :
-    QGroupBox(parent),
+	QGroupBox(parent),
 	ui(new Ui::LogWidget)
 {
 	ui->setupUi(this);
 
-	QObject::connect(ui->clearLogButton,			SIGNAL(clicked()), this, SLOT(clear()));
-	QObject::connect(ui->saveLogButton,				SIGNAL(clicked()), this, SLOT(save()));
+	QObject::connect(ui->clearLogButton, SIGNAL(clicked()), this, SLOT(clear()));
+	QObject::connect(ui->saveLogButton,	SIGNAL(clicked()), this, SLOT(save()));
 }
 
 LogWidget::~LogWidget()
