@@ -4,6 +4,8 @@
 # Variable GUICOMMON_DIR MUST be defined before including.
 #-------------------------------------------------
 
+lessThan(QT_MAJOR_VERSION, 5): error("At least Qt 5.0 is required")
+
 equals(GUICOMMON_DIR, ""):	error("Variable GUICOMMON_DIR was not defined before including gui-common.pro")
 
 SOURCES += \
