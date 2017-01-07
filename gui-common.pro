@@ -6,7 +6,9 @@
 
 lessThan(QT_MAJOR_VERSION, 5): error("At least Qt 5.0 is required")
 
-equals(GUICOMMON_DIR, ""):	error("Variable GUICOMMON_DIR was not defined before including gui-common.pro")
+equals(BASE_DIR, ""):	     error("Variable BASE_DIR was not defined before including gui-common.pro")
+
+GUICOMMON_DIR = $$BASE_DIR/lib/gui-common
 
 SOURCES += \
     $$GUICOMMON_DIR/src/task/task_runner.cpp \
