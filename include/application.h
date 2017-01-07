@@ -22,7 +22,7 @@ namespace OpenPST {
 	namespace GUI {
 		class Application : public QApplication {
 			public:
-				Application(int argc, char *argv[], const char* translationPrefix);
+				Application(int& argc, char** argv, const char* translationPrefix);
 				~Application();
 			private:
 				QTranslator qtTranslator;
