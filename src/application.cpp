@@ -44,6 +44,8 @@ Application::Application(int& argc, char** argv, const char* translatorPrefix) :
 
 	this->installTranslator(&qtTranslator);
 	this->installTranslator(&translator);
+		
+	setAttribute(Qt::AA_EnableHighDpiScaling);
 }
 
 
